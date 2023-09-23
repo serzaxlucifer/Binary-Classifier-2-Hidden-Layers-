@@ -4,11 +4,7 @@ This is a dense, deep neural network consisting of 2 hidden layers capable of bi
 
 
 				                            DEEP, DENSE NEURAL NETWORK
-
-
-
-
-			                                 Authors: Mukul Malik
+			                                    Authors: Mukul Malik
 
 
 
