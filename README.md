@@ -2,9 +2,8 @@
 This is a dense, deep neural network consisting of 2 hidden layers capable of binary classification.
 
 
-
-				                            DEEP, DENSE NEURAL NETWORK
-			                                    Authors: Mukul Malik
+    DEEP, DENSE NEURAL NETWORK
+    Authors: Mukul Malik
 
 
 
