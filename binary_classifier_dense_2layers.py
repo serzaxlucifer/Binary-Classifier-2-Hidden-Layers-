@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-# This is where the model lives! We used this same practice in Assignment 1 of keeping features generic and keeping the model code separate.
 # THIS MODEL HAS GENERIC INPUTS FOR NEURONS IN BOTH LAYERS.
 
 
