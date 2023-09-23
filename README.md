@@ -89,14 +89,14 @@ For example, suppose your dataset name is `'dataset2.csv'` and it has 14 input f
        α  : an arbitrary scaling factor usually 2-10. [usually kept at 5]
    [Source: [https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw](url)]
 
-## Activation Functions (Leaky ReLU + Sigmoid)
+### Activation Functions (Leaky ReLU + Sigmoid)
 
 We decided to use Leaky ReLU Activation Function for hidden layers. 
 
 Since this is a binary classification model, sigmoid activation was used at output neuron (layer).
 
 
-## DATASET 1 Description (dataset.csv)
+### DATASET 1 Description (dataset.csv)
 
 The first dataset has 13 input features: 
 
@@ -132,7 +132,7 @@ The first dataset has 13 input features:
 [Acquired from [https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset](url)]
 
 
-## DATASET2 Description (dataset2.csv)
+### DATASET2 Description (dataset2.csv)
 
 This dataset has 14 input features: 
 
