@@ -81,12 +81,12 @@ For example, suppose your dataset name is `'dataset2.csv'` and it has 14 input f
    [Source: [https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw](url)]
 
 2. We can usually prevent over-fitting if we keep number of neurons below:
-   Nh = Ns / (α *(Ni + No))
+   `Nh = Ns / (α *(Ni + No))`
 
-   Ni : number of input neurons.
-   No : number of output neurons
-   Ns : number of samples in training data set.
-   α  : an arbitrary scaling factor usually 2-10. [usually kept at 5]
+       Ni : number of input neurons.
+       No : number of output neurons
+       Ns : number of samples in training data set.
+       α  : an arbitrary scaling factor usually 2-10. [usually kept at 5]
    [Source: [https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw](url)]
 
 ## ACTIVATION FUNCTION (Leaky ReLU + Sigmoid)
