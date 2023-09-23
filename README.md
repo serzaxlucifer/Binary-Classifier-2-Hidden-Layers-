@@ -14,6 +14,7 @@ This is a dense, deep neural network consisting of 2 hidden layers capable of bi
 3) Activation Functions
 
 For testing, 2 different datasets are also available.
+
 5) Dataset1 Description
 6) DATASET2 Description
 
