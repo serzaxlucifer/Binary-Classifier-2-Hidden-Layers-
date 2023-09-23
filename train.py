@@ -9,7 +9,7 @@ from binary_classifier_dense_2layers import *
 # MODEL STRUCTURE: 
 
 #     INPUT LAYER -> 1ST HIDDEN LAYER -> 2ND HIDDEN LAYER -> OUTPUT LAYER
-#     x neurons      l1 neurons           l1 neurons           1 neuron
+#     x neurons      l1 neurons           l2 neurons           1 neuron
 
 
 # # # # # # # # # #  COMMAND LINE ARGUMENT PARSING  # # # # # # # # # # # # #
