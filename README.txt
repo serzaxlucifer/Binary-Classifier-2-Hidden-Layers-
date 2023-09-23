@@ -1,20 +1,17 @@
 ################################################################################################
 
-				  DEEP LEARNING ASSIGNMENT 2
+				  DEEP, DENSE NEURAL NETWORK
 
 ################################################################################################
 
 
-			    Authors: Mukul Malik, Parag Rachchh
-				     21ucs133   , 21ucs143
+			            Authors: Mukul Malik
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 NOTE:
 
-The model in this folder has 2 hidden layer and you can specify the number of neurons in each of 
-them (2 new parameters). Basically, this is a bit more improved version of the static network 
-present in outer folder.
+The model has 2 hidden layer and you can specify the number of neurons in each of them. 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -24,8 +21,9 @@ CONTENTS:
 1) How to Use the Model and Tune Hyperparameters
 2) Description and Model Architecture
 3) Activation Functions
-4) Further Analysis and Reading
-5) Default Dataset Description [Main Dataset: dataset.csv]
+
+For testing, 2 different datasets are also available.
+5) Dataset1 Description
 6) DATASET2 Description
 
 
@@ -34,7 +32,7 @@ HOW TO TRAIN AND TUNE HYPERPARAMETERS:
 binary_classifier_dense_2layers.py file contains the model code and train.py has code to invoke training.
 
 To train on the dataset we have supplied (dataset.csv -- it's description is given at the end),
-simply run:	python train.py
+simply run: ->	python train.py
 
 as we have set the default parameters to work for this dataset. All tuned hyperparameters are already 
 set for dataset.csv. These were determined after extensive trial and error.
@@ -42,7 +40,7 @@ set for dataset.csv. These were determined after extensive trial and error.
 The model has 3 hyperparameters: learning rate, leak rate (leaky reLU coefficient) and threshold for
 binary classification. These can be changed as per your wish in ways described below.
 
-train.py takes 9 optional arguments: (for changing default settings, using other datasets etc.)
+train.py takes 11 optional arguments: (for changing default settings, using other datasets etc.)
 
 1) --input      : An integer to pass the number of input features in the dataset
 
@@ -66,8 +64,6 @@ train.py takes 9 optional arguments: (for changing default settings, using other
 		  after a certain offset of iterations to not print more than 20 values (spread evenly
  		  between 0 and max iterations.)
 
-! NEW PARAMETERS !
-
 10) --l1 	: number of neurons in first hidden layer [default set to 6]
 
 11) --l2 	: number of neurons in second hidden layer [default set to 3]
@@ -81,7 +77,7 @@ For example, suppose your dataset name is 'dataset2.csv' and it has 14 input fea
 252 rows for train and rest 51 rows for test. With 10000 iterations and learning rate of 0.05
 and you want 36 neurons in first layer and 16 neurons in second, then you invoke:
 
-python train.py --dataset 'dataset2.csv' --input 14 --train 252 --test 51 --iterations 10000 --lr 0.05 --l1 36 --l2 16
+-> python train.py --dataset 'dataset2.csv' --input 14 --train 252 --test 51 --iterations 10000 --lr 0.05 --l1 36 --l2 16
 
 
 Description and Model Architecture
@@ -114,11 +110,10 @@ We decided to use Leaky ReLU Activation Function for hidden layers.
 Since this is a binary classification model, sigmoid activation was used at output neuron (layer).
 
 
-
-DEFAULT DATASET DESCRIPTION: (dataset.csv)
+DATASET1 DESCRIPTION: (dataset.csv)
 ----------------------------
 
-The default dataset has 13 input features: 
+The first dataset has 13 input features: 
 
 Age :           Age of the patient
 
@@ -305,6 +300,6 @@ TARGET:			0 if income will be less than 50k and 1 if more.
 
 
 Thank you for reading,
-The Authors
+Serzax Lucifer (Mukul Malik)
 
 
