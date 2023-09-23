@@ -22,7 +22,7 @@ For testing, 2 different datasets are also available.
 
 binary_classifier_dense_2layers.py file contains the model code and train.py has code to invoke training.
 
-To train on the dataset we have supplied (dataset.csv -- it's description is given at the end),
+To train on the dataset we have supplied (`dataset.csv` -- it's description is given at the end),
 simply run: 
 
 `python train.py`
@@ -33,7 +33,7 @@ set for `dataset.csv`. These were determined after extensive trial and error.
 The model has 3 hyperparameters: learning rate, leak rate (leaky reLU coefficient) and threshold for
 binary classification. These can be changed as per your wish in ways described below.
 
-train.py takes 11 optional arguments: (for changing default settings, using other datasets etc.)
+`train.py` takes 11 optional arguments: (for changing default settings, using other datasets etc.)
 
 1) `--input`      : An integer to pass the number of input features in the dataset
 
@@ -100,34 +100,34 @@ Since this is a binary classification model, sigmoid activation was used at outp
 
 The first dataset has 13 input features: 
 
-Age :           Age of the patient
+`Age` :           Age of the patient
 
-Sex : 		Sex of the patient
+`Sex `: 		Sex of the patient
 
-exang: 		exercise induced angina (1 = yes; 0 = no)
+`exang`: 		exercise induced angina (1 = yes; 0 = no)
 
-ca: 		number of major vessels (0-3)
+`ca`: 		number of major vessels (0-3)
 
-cp : 		Chest Pain type chest pain type
+`cp` : 		Chest Pain type chest pain type
      			Value 1: typical angina
      			Value 2: atypical angina
      			Value 3: non-anginal pain
      			Value 4: asymptomatic
 
-trtbps : 	resting blood pressure (in mm Hg)
+`trtbps` : 	resting blood pressure (in mm Hg)
 
-chol : 		cholestoral in mg/dl fetched via BMI sensor
+`chol` : 		cholestoral in mg/dl fetched via BMI sensor
 
-fbs : 		(fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+`fbs` : 		(fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
 
-rest_ecg : 	resting electrocardiographic results
+`rest_ecg` : 	resting electrocardiographic results
          		Value 0: normal
          		Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
          		Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 
-thalach : 	maximum heart rate achieved
+`thalach` : 	maximum heart rate achieved
 
-target : 	0= less chance of heart attack 1= more chance of heart attack	[TRUE LABEL]
+`target` : 	0= less chance of heart attack 1= more chance of heart attack	[TRUE LABEL]
 
 [Acquired from [https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset](url)]
 
@@ -136,9 +136,9 @@ target : 	0= less chance of heart attack 1= more chance of heart attack	[TRUE LA
 
 This dataset has 14 input features: 
 
-Workclass :           	Workclass of the person
+`Workclass` :           	Workclass of the person
 
-Education : 		Education of the patient
+`Education` : 		Education of the patient
 			Value Matrix:
 
 			EDUCATION	NUMBER
@@ -159,11 +159,11 @@ Education : 		Education of the patient
 			Assoc-acdm	15
 
 
-fnlwgt: 		net worth
+`fnlwgt`: 		net worth
 
-educational-num: 	educatinal qualification the person
+`educational-num`: 	educatinal qualification the person
 
-marital-status : 	Chest Pain type chest pain type
+`marital-status` : 	Chest Pain type chest pain type
 
 			Value Matrix:
 
@@ -176,7 +176,7 @@ marital-status : 	Chest Pain type chest pain type
 
      			
 
-occupation : 		occupation of the person
+`occupation` : 		occupation of the person
 
 			Value Matrix:
 
@@ -197,7 +197,7 @@ occupation : 		occupation of the person
 			Priv-house-serv		14
 
 
-relationship : 		relationship of the person
+`relationship` : 		relationship of the person
 
 			Value Matrix:
 
@@ -210,7 +210,7 @@ relationship : 		relationship of the person
 			Other-relative	6
 
 
-race : 			race of the person
+`race` : 			race of the person
 
 			Value Matrix:
 
@@ -220,7 +220,7 @@ race : 			race of the person
 			Asian-Pac-Islander	3
 			Amer-Indian-Eskimo	4
 
-gender : 		gender of the person
+`gender` : 		gender of the person
 
 			Value Matrix:
 
@@ -230,13 +230,13 @@ gender : 		gender of the person
 
          		
 
-capital_gain : 		capital_gain of the person
+`capital_gain` : 		capital_gain of the person
 
-capital_loss : 		capital_loss of the person
+`capital_loss` : 		capital_loss of the person
 
-working_hours:		working hours of the person per week
+`working_hours`:		working hours of the person per week
 
-native_country:		country of the person
+`native_country`:		country of the person
 
 			Value Matrix:
 
@@ -280,4 +280,4 @@ native_country:		country of the person
 			Outlying-US(Guam-USVI-etc)	37
 
 
-TARGET:			0 if income will be less than 50k and 1 if more.
+`TARGET`:			0 if income will be less than 50k and 1 if more.
