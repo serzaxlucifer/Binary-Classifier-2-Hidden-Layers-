@@ -21,7 +21,7 @@ parser.add_argument('--l1', type = int, default = 6, help = 'Value for neurons i
 parser.add_argument('--l2', type = int, default = 3, help = 'Value for neurons in second hidden layer')
 parser.add_argument('--train', type = int, default = 252, help = 'Value for train variable')
 parser.add_argument('--test', type = int, default = 51, help = 'Value for test variable')
-parser.add_argument('--dataset', type = str, default = 'dataset.csv', help = 'Dataset name')
+parser.add_argument('--dataset', type = str, default = 'Datasets/dataset.csv', help = 'Dataset name')
 parser.add_argument('--print', type = int, default = 2, help = 'Value for print adjustment')
 parser.add_argument('--leakrate', type = float, default = 0.01, help = 'Value for Leaky ReLU activation coefficient')         # hyperarameters of our model
 parser.add_argument('--iterations', type = int, default = 10000, help = 'Value number of iterations')                         # hyperparameters of our model
