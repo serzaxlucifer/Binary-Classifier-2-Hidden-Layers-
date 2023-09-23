@@ -1,18 +1,18 @@
-## Binary Classifier (Dense Neural Network -- 2 Hidden Layers)
+# Binary Classifier (Dense Neural Network -- 2 Hidden Layers)
 This is a dense, deep neural network consisting of 2 hidden layers capable of binary classification.
 
-####################################################################################
+
 
 				                            DEEP, DENSE NEURAL NETWORK
 
-####################################################################################
+
 
 
 			                                 Authors: Mukul Malik
 
-////////////////////////////////////////////////////////////////////////////////////
 
-# Contents
+
+## Contents
 1) How to Use the Model and Tune Hyperparameters
 2) Description and Model Architecture
 3) Activation Functions
@@ -21,7 +21,7 @@ For testing, 2 different datasets are also available.
 5) Dataset1 Description
 6) DATASET2 Description
 
-# HOW TO TRAIN AND TUNE HYPERPARAMETERS:
+## HOW TO TRAIN AND TUNE HYPERPARAMETERS:
 
 binary_classifier_dense_2layers.py file contains the model code and train.py has code to invoke training.
 
@@ -73,7 +73,7 @@ For example, suppose your dataset name is `'dataset2.csv'` and it has 14 input f
 
 `python train.py --dataset 'Datasets/dataset2.csv' --input 14 --train 252 --test 51 --iterations 10000 --lr 0.05 --l1 36 --l2 16`
 
-# Description and Model Architecture
+## Description and Model Architecture
 
 2 Hidden layers. Some good rules for choosing number of neurons [l1 and l2 parameter]
 
@@ -92,14 +92,14 @@ For example, suppose your dataset name is `'dataset2.csv'` and it has 14 input f
    α  : an arbitrary scaling factor usually 2-10. [usually kept at 5]
    [Source: [https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw](url)]
 
-# ACTIVATION FUNCTION (Leaky ReLU + Sigmoid)
+## ACTIVATION FUNCTION (Leaky ReLU + Sigmoid)
 
 We decided to use Leaky ReLU Activation Function for hidden layers. 
 
 Since this is a binary classification model, sigmoid activation was used at output neuron (layer).
 
 
-# DATASET 1 DESCRIPTION (dataset.csv)
+## DATASET 1 DESCRIPTION (dataset.csv)
 
 The first dataset has 13 input features: 
 
@@ -135,7 +135,7 @@ target : 	0= less chance of heart attack 1= more chance of heart attack	[TRUE LA
 [Acquired from [https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset](url)]
 
 
-# DATASET2 DESCRIPTION
+## DATASET2 DESCRIPTION
 
 This dataset has 14 input features: 
 
