@@ -76,8 +76,8 @@ For example, suppose your dataset name is `'dataset2.csv'` and it has 14 input f
 
 1. For most problems, one could probably get decent performance (even without a second optimization step) 
    by setting the hidden layer configuration using just two rules: (i) the number of hidden layers 
-   equals one; and (ii) the number of neurons in that layer is the mean of the neurons in the input 
-   and output layers. 
+   equals one; and `(ii) the number of neurons in that layer is the mean of the neurons in the input 
+   and output layers. `
    [Source: [https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw](url)]
 
 2. We can usually prevent over-fitting if we keep number of neurons below:
