@@ -1,0 +1,10 @@
+TO TRAIN ON DATASET.CSV,
+
+python train.py
+
+TO TRAIN ON DATASET2.CSV,
+
+(faster, less neurons)   : python train.py --dataset 'dataset2.csv' --lr 0.005 --iterations 30000 --train 33000 --test 4000 --input 14 --l1 6 --l2 3	[amazing result try it! see what happens after 15k iterations!]
+(slower and same results): python train.py --dataset 'dataset2.csv' --lr 0.0001 --iterations 500 --train 33000 --test 4000 --input 14 --l1 36 --l2 16
+
+dataset2 has 40k + data points and will take 1-2 minutes to compute.
