@@ -303,7 +303,7 @@ class binary_classifier_dense_2layers:
             iterations_rec.append(i + 1)
             accuracy_rec.append(accuracy)
             
-            if i % offset == 1:
+            if i % offset == 0:
                 print("COST AFTER ITERATION NO. {} is {} and accuracy = {}".format(i+1, cost, accuracy))
 
             dw, db = self.backward_propagation(activations, train_input, train_output, output_matrix)
