@@ -19,7 +19,7 @@ For testing, 2 different datasets are also available.
 
 ## HOW TO TRAIN AND TUNE HYPERPARAMETERS:
 
-binary_classifier_dense_2layers.py file contains the model code and train.py has code to invoke training.
+`binary_classifier_dense_2layers.py` file contains the model code and train.py has code to invoke training.
 
 To train on the dataset we have supplied (`dataset.csv` -- it's description is given at the end),
 simply run: 
